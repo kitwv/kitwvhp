@@ -13,37 +13,45 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-3" id="header">
-        <h3>
-          <a href="index.html">京都工芸繊維大学<br>ワンダーフォーゲル部</a>
-        </h3>
-        <nav>
-          <a href="introduction.html">クラブ紹介</a><br>
-          <a href="http://blogs.yahoo.co.jp/kitwvblog/">ブログ</a><br>
-          <a href="schedule.html">活動予定</a><br>
-          <a href="members.html">部員紹介</a><br>
-          <a href="koya.html">山小屋</a><br>
-          <a href="welcome.html">入部案内</a><br>
-          <a href="old_hp/index.html">旧HP</a>
-        </nav>
-      </div>
+  <!-- ナビゲーションバー -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="nabvar-brand" href="index.html">
+      京都工芸繊維大学ワンダーフォーゲル部
+    </a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Navber" aria-controls="Navber" aria-expanded="false" aria-label="ナビゲーションの切り替え">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <div class="col-lg-9">
-        <main>
-          <figure>
-            <img src="img/top.jpg" class="img-responsive center-block" alt="top">
-          </figure>
-        </main>
-      </div>
-
+    <div class="collapse navbar-collapse" id="Navber">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="introduction.html">クラブ紹介 </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://blogs.yahoo.co.jp/kitwvblog/"> ブログ </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="schedule.html"> 活動予定 </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="members.html"> 部員紹介 </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="koya.html"> 山小屋 </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="welcome.html"> 入部案内 </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="old_hp/index.html"> 旧HP </a>
+        </li>
+      </ul>
     </div>
-  </div>
+  </nav>
 
   <!-- COPYRIGHT -->
-  <footer>
-    <font size="-1">COPYRIGHT&copy;2007-
+  <div class="footer">
+    <p class="text-right">COPYRIGHT&copy;2019-
       <script type="text/javascript">
         myDate = new Date();
         myYear = myDate.getFullYear();
@@ -51,9 +59,8 @@
       </script>
       Kyoto Institute of Technology Wander Vogel Club, All
       rights reserved.
-    </font>
-    <p style="line-height:150%;">&nbsp;</p>
-  </footer>
+    </p>
+  </div>
 </body>
 
 </html>
