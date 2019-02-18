@@ -39,7 +39,6 @@ nav {
 
 #introduction_img img {
   margin: 0 0 60px 0;
-  size: cover;
 }
 
 /* schedule.html */
@@ -47,15 +46,22 @@ nav {
   margin: 0 10px 0 10px;
 }
 
-/*  */
-#koya .jumbotron {
+/* koya.html  */
+#koya_main .jumbotron {
   background-image: url('../img/koya/jumbotron.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom center;
+  background-position: center;
 }
 
 #koya_img img {
   margin: 0 0 60px 0;
-  size: cover;
+}
+
+/* welcome.html  */
+#welcome_main .jumbotron {
+  background-image: url('../img/welcome.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
