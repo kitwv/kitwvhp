@@ -40,8 +40,6 @@ nav {
 #introduction_img img {
   margin: 0 0 60px 0;
   size: cover;
-  height width: 400px;
-  height: auto;
 }
 
 /* schedule.html */
@@ -51,8 +49,13 @@ nav {
 
 /*  */
 #koya .jumbotron {
-  background-image: url('../img/koya_jumbotron.jpg');
+  background-image: url('../img/koya/jumbotron.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
+}
+
+#koya_img img {
+  margin: 0 0 60px 0;
+  size: cover;
 }
