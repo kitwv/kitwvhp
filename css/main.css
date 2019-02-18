@@ -5,8 +5,9 @@ body {
   padding-top: 6rem;
 }
 
+/* index.html */
 nav {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 #nav-title {
@@ -19,4 +20,30 @@ nav {
 
 #nav-title:visited {
   color: white;
+}
+
+/* introduction.html */
+.jumbotron {
+  background-image: url('../img/introduction_jumbotron.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+#introduction_inner {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+#introduction_img img {
+  margin: 0 0 60px 0;
+  size: cover;
+  height width: 400px;
+  height: auto;
+}
+
+.margin_60{
+  height: 60px;
 }
