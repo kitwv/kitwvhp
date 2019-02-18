@@ -1,0 +1,145 @@
+<HTML>
+
+<HEAD>
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 12.0.2.0 for Windows">
+<META http-equiv="Content-Type" content="text/html; charset=EUC-JP">
+<META http-equiv="Content-Style-Type" content="text/css">
+
+<TITLE>KITWV　OBさんのアートギャラリー</TITLE>
+<SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_SITEMENU_11
+//
+//  JavaScript
+//
+//  Licensed Materials - Property of IBM
+//
+//  5724I83
+//
+//  (C) Copyright IBM Corp. 1995, 2006 All Rights Reserved.
+//
+var hpb=new Object();
+	hpb.ContentLoader=function(url, divId, onload) {
+	this.url = url;
+	this.divId=divId;
+	this.request=null;
+	this.onload=onload;
+	this.onerror=this.defaultError;
+	this.loadSiteMenu(url);
+}
+hpb.ContentLoader.prototype={
+	loadSiteMenu:function(url){
+		if(window.ActiveXObject) {
+			// IE
+			try {
+				this.request = new ActiveXObject ("Msxml2.XMLHTTP");
+			} catch(e) {
+				this.request = new ActiveXObject ("Microsoft.XMLHTTP");
+			}
+		} else
+		if(window.XMLHttpRequest) {
+			// non-IE
+			this.request = new XMLHttpRequest();
+		}
+		if(this.request) {
+			try{
+				var loader=this;
+				this.request.onreadystatechange=function(){
+					loader.onReadyState.call(loader);
+				}
+				this.request.open('GET',url+"?cache="+(new Date()).getTime(), true);
+				this.request.send(null);
+			}catch( err) {
+				this.onerror.call(this);
+			}
+		}
+	},
+	onReadyState:function(){
+		var request = this.request;
+		var readyState = request.readyState;
+		if(readyState==4){
+			var httpStatus=request.status;
+			if(httpStatus==200 || httpStatus == 0) {
+				this.onload.call(this);
+			}else{
+				this.onerror.call(this);
+			}
+		}
+	},
+
+	defaultError:function() {
+		alert("サイト共通メニューの読み込みに失敗しました。\nメニューID : "+this.divId);
+	}
+}
+
+function getMenu(){
+	document.getElementById(this.divId).innerHTML = this.request.responseText;
+}
+
+function getHpbSiteMenu(menuURL, divId) {
+	var loader=new hpb.ContentLoader(menuURL, divId, getMenu);
+
+}
+//-->
+</SCRIPT>
+<LINK rel="stylesheet" type="text/css" href="hpb9tm01_66.css" id="hpb9tm01_6">
+</HEAD>
+
+<BODY>
+<TABLE width="761" border="0" cellspacing="0" cellpadding="0" class="hpb-head" id="_HPB_LAYOUT_H">
+  <TBODY>
+    <TR>
+      <TD width="760" height="30" class="hpb-head-cell1"><IMG alt="OBさんのアートギャラリー" src="00log031.gif" width="265" height="35"></TD>
+      <TD><A href="#skip_link"><IMG src="c3.gif" alt="本文へジャンプ" width="1" height="1" border="0"></A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE width="760" border="0" cellpadding="0" cellspacing="0" class="hpb-main" id="_HPB_LAYOUTTABLE_08">
+  <TBODY>
+    <TR>
+      <TD height="18" valign="top" align="center" class="hpb-cnt-cell1" id="_HPB_LAYOUT_LMH0">
+      <DIV id="hpbsitemenutable080303233636"><SCRIPT language="JavaScript">
+<!-- Site Menu
+ getHpbSiteMenu('HpbSitemenu/hpbsitemenutable080303233636.html','hpbsitemenutable080303233636');
+// Site Menu -->
+</SCRIPT></DIV>
+      </TD>
+    </TR>
+    <TR>
+      <TD valign="top" align="center" class="hpb-cnt-cell3-x"><A name="skip_link" id="skip_link"></A>
+        <TABLE border="0" align="center" cellpadding="0" cellspacing="0" class="hpb-lb-tb1">
+          <TBODY>
+            <TR>
+              <TD height="400" valign="top" class="hpb-lb-tb1-cell3" id="_HPB_LAYOUT_CONTENTS">
+            <P><BR>
+            <bgsound src="hasu.mid" autostart="true" hidden="true" loop="-1"><BR>
+            </P>
+            <P><IMG src="newimage11A.gif" width="667" height="500" border="0"></P>
+            </TD>
+            </TR>
+          </TBODY>
+        </TABLE>
+      </TD>
+    </TR>
+    <TR>
+      <TD height="18" valign="top" class="hpb-cnt-cell4" id="_HPB_LAYOUT_F">&nbsp;COPYRIGHT&#9400;2007-<script type="text/javascript">
+myDate = new Date() ;myYear = myDate.getFullYear ();document.write(myYear);
+</script> Kyoto Institute of Technology Wander Vogel Club,
+      All rights reserved.</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BODY>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29996047-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</HTML>

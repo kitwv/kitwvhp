@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 12.0.5.0 for Windows">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<TITLE>２００８第二次錬成</TITLE>
+<LINK rel="stylesheet" type="text/css" href="../../../hpb9tm01_621.css" id="hpb9tm01_6">
+<SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_SITEMENU_11
+//
+//  JavaScript
+//
+//  Licensed Materials - Property of IBM
+//
+//  5724I83
+//
+//  (C) Copyright IBM Corp. 1995, 2006 All Rights Reserved.
+//
+var hpb=new Object();
+	hpb.ContentLoader=function(url, divId, onload) {
+	this.url = url;
+	this.divId=divId;
+	this.request=null;
+	this.onload=onload;
+	this.onerror=this.defaultError;
+	this.loadSiteMenu(url);
+}
+hpb.ContentLoader.prototype={
+	loadSiteMenu:function(url){
+		if(window.ActiveXObject) {
+			// IE
+			try {
+				this.request = new ActiveXObject ("Msxml2.XMLHTTP");
+			} catch(e) {
+				this.request = new ActiveXObject ("Microsoft.XMLHTTP");
+			}
+		} else 
+		if(window.XMLHttpRequest) {
+			// non-IE
+			this.request = new XMLHttpRequest();
+		}
+		if(this.request) {
+			try{
+				var loader=this;
+				this.request.onreadystatechange=function(){
+					loader.onReadyState.call(loader);
+				}
+				this.request.open('GET',url+"?cache="+(new Date()).getTime(), true);
+				this.request.send(null);
+			}catch( err) {
+				this.onerror.call(this);
+			}
+		}
+	},
+	onReadyState:function(){
+		var request = this.request;
+		var readyState = request.readyState;
+		if(readyState==4){
+			var httpStatus=request.status;
+			if(httpStatus==200 || httpStatus == 0) {
+				this.onload.call(this);
+			}else{
+				this.onerror.call(this);
+			}
+		}
+	},
+	
+	defaultError:function() {
+		alert("サイト共通メニューの読み込みに失敗しました。\nメニューID : "+this.divId);
+	}
+}	
+  
+function getMenu(){
+	document.getElementById(this.divId).innerHTML = this.request.responseText;
+}
+
+function getHpbSiteMenu(menuURL, divId) {
+	var loader=new hpb.ContentLoader(menuURL, divId, getMenu);
+	
+}
+//-->
+</SCRIPT></HEAD>
+<BODY>
+<TABLE width="829" border="0" cellspacing="0" cellpadding="0" class="hpb-head" id="_HPB_LAYOUT_H">
+  <TBODY>
+    <TR>
+      <TD height="30" class="hpb-head-cell1" width="812"><IMG alt="２００８祇園バイト " src="../../../00log01131112.gif" width="158" height="32"></TD>
+      <TD><A href="#skip_link"><IMG src="../../../c1.gif" alt="本文へジャンプ" width="1" height="1" border="0"></A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE border="0" cellpadding="0" cellspacing="0" class="hpb-main" id="_HPB_LAYOUTTABLE_08">
+  <TBODY>
+    <TR>
+      <TD height="18" valign="top" align="center" class="hpb-cnt-cell1" id="_HPB_LAYOUT_LMH0" width="813">
+      <DIV id="hpbsitemenutable080303233636"><SCRIPT language="JavaScript">
+<!-- Site Menu
+ getHpbSiteMenu('HpbSitemenu/hpbsitemenutable080303233636.html','hpbsitemenutable080303233636');
+// Site Menu -->
+</SCRIPT></DIV>
+      </TD>
+    </TR>
+    <TR>
+      <TD valign="top" align="center" class="hpb-cnt-cell3-x" width="813"><A name="skip_link" id="skip_link"></A>
+      <TABLE border="0" align="center" cellpadding="0" cellspacing="0" class="hpb-lb-tb1" style="width : 740px;">
+          <TBODY>
+            <TR> 
+              <TD height="400" valign="top" class="hpb-lb-tb1-cell3" id="_HPB_LAYOUT_CONTENTS"><BR>
+            日付　'08 07/17<BR>
+            参加者　13名<BR>
+            <BR>
+            <HR>
+            <BR>
+            KITWV伝統の祇園バイトです。<BR>
+            毎年，祇園祭のクライマックス，山鉾巡行を中心に<BR>
+            山の一つ占出山の組立から巡行，解体までの一連をお手伝いしています。<BR>
+            <BR>
+            <IMG src="kit_004.jpg" border="0" width="320" height="240"><IMG src="kit_014.jpg" border="0" width="320" height="240"><BR>
+            装束に着替えて準備は万端！<BR>
+            <BR>
+            <IMG src="kit_021.jpg" border="0" width="249" height="332"><IMG src="kit_023.jpg" border="0" width="320" height="240"><BR>
+            山にご神体を運び込み準備完了<BR>
+            <BR>
+            <IMG src="kit_038.jpg" border="0" width="320" height="240">　で，市街地をぐるっと回って終了。結構疲れます。<BR>
+            <BR>
+            <IMG src="kit_057.jpg" border="0" width="320" height="426">　今年も無事終了！後は解体＆片付け。<BR>
+            <BR>
+            <HR>
+            <BR>
+            <A href="../../../archive.html"><IMG src="../../../arw0541.gif" width="15" height="25" border="0">　活動記録に戻る</A><BR>
+            <BR>
+            </TD>
+            </TR>
+          </TBODY>
+        </TABLE>
+      </TD>
+    </TR>
+    <TR>
+      <TD height="18" valign="top" class="hpb-cnt-cell4" id="_HPB_LAYOUT_F" width="813">&nbsp;COPYRIGHT 2007-2010 Kyoto Institute of Technology Wander Vogel Club,
+      All rights reserved.</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BODY>
+</HTML>

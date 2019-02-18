@@ -1,0 +1,144 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 12.0.4.0 for Windows">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+<TITLE>２００８新歓鍋</TITLE>
+<LINK rel="stylesheet" type="text/css" href="../../../hpb9tm01_620.css" id="hpb9tm01_6">
+<SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_SITEMENU_11
+//
+//  JavaScript
+//
+//  Licensed Materials - Property of IBM
+//
+//  5724I83
+//
+//  (C) Copyright IBM Corp. 1995, 2006 All Rights Reserved.
+//
+var hpb=new Object();
+	hpb.ContentLoader=function(url, divId, onload) {
+	this.url = url;
+	this.divId=divId;
+	this.request=null;
+	this.onload=onload;
+	this.onerror=this.defaultError;
+	this.loadSiteMenu(url);
+}
+hpb.ContentLoader.prototype={
+	loadSiteMenu:function(url){
+		if(window.ActiveXObject) {
+			// IE
+			try {
+				this.request = new ActiveXObject ("Msxml2.XMLHTTP");
+			} catch(e) {
+				this.request = new ActiveXObject ("Microsoft.XMLHTTP");
+			}
+		} else 
+		if(window.XMLHttpRequest) {
+			// non-IE
+			this.request = new XMLHttpRequest();
+		}
+		if(this.request) {
+			try{
+				var loader=this;
+				this.request.onreadystatechange=function(){
+					loader.onReadyState.call(loader);
+				}
+				this.request.open('GET',url+"?cache="+(new Date()).getTime(), true);
+				this.request.send(null);
+			}catch( err) {
+				this.onerror.call(this);
+			}
+		}
+	},
+	onReadyState:function(){
+		var request = this.request;
+		var readyState = request.readyState;
+		if(readyState==4){
+			var httpStatus=request.status;
+			if(httpStatus==200 || httpStatus == 0) {
+				this.onload.call(this);
+			}else{
+				this.onerror.call(this);
+			}
+		}
+	},
+	
+	defaultError:function() {
+		alert("サイト共通メニューの読み込みに失敗しました。\nメニューID : "+this.divId);
+	}
+}	
+  
+function getMenu(){
+	document.getElementById(this.divId).innerHTML = this.request.responseText;
+}
+
+function getHpbSiteMenu(menuURL, divId) {
+	var loader=new hpb.ContentLoader(menuURL, divId, getMenu);
+	
+}
+//-->
+</SCRIPT></HEAD>
+<BODY>
+<TABLE width="798" border="0" cellspacing="0" cellpadding="0" class="hpb-head" id="_HPB_LAYOUT_H">
+  <TBODY>
+    <TR>
+      <TD height="30" class="hpb-head-cell1" width="781"><IMG alt="２００８年度新入生歓迎会" src="../../../00log03121.gif" width="233" height="32"></TD>
+      <TD><A href="#skip_link"><IMG src="../../../c3.gif" alt="本文へジャンプ" width="1" height="1" border="0"></A></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<TABLE width="782" border="0" cellpadding="0" cellspacing="0" class="hpb-main" id="_HPB_LAYOUTTABLE_08" height="1910">
+  <TBODY>
+    <TR>
+      <TD height="18" valign="top" align="center" class="hpb-cnt-cell1" id="_HPB_LAYOUT_LMH0">
+      <DIV id="hpbsitemenutable080303233636"><SCRIPT language="JavaScript">
+<!-- Site Menu
+ getHpbSiteMenu('HpbSitemenu/hpbsitemenutable080303233636.html','hpbsitemenutable080303233636');
+// Site Menu -->
+</SCRIPT></DIV>
+      </TD>
+    </TR>
+    <TR>
+      <TD valign="top" align="center" class="hpb-cnt-cell3-x" height="1859"><A name="skip_link" id="skip_link"></A>
+      <TABLE border="0" align="center" cellpadding="0" cellspacing="0" class="hpb-lb-tb1" style="width : 710px;">
+          <TBODY>
+            <TR>
+            <TD valign="top" class="hpb-lb-tb1-cell3" id="_HPB_LAYOUT_CONTENTS" style="padding-left : 15px;" height="1857"><BR>
+            日付　'08 4月に数回<BR>
+            開催場所　主に先輩の住みか<BR>
+            参加者　多数<BR>
+            <BR>
+            <HR>
+            <IMG src="IMG_4805.jpg" border="0" width="360" height="239">　たくさん来ていただきました。メニューは手作りギョーザ。<BR>
+            <BR>
+            <IMG src="IMG_9290.jpg" border="0" width="360" height="270">　全景<BR>
+            <BR>
+            <IMG src="IMG_9295.jpg" border="0" width="360" height="270">　とても盛り上がりました。<BR>
+            <BR>
+            <IMG src="IMG_9305.jpg" border="0" width="360" height="270">　記念撮影<BR>
+            <BR>
+            <IMG src="IMG_9298.jpg" border="0" width="360" height="270">　饒舌な副部長が部の紹介<BR>
+            <BR>
+            <IMG src="IMG_9303.jpg" border="0" width="360" height="270">　その後，轟沈しました。<BR>
+            <BR>
+            <HR>
+            <BR>
+            <A href="../../../archive.html"><IMG src="../../../arw0541.gif" width="15" height="25" border="0">　活動記録に戻る</A><BR>
+            <BR>
+            </TD>
+          </TR>
+          </TBODY>
+        </TABLE>
+      </TD>
+    </TR>
+    <TR>
+      <TD valign="top" class="hpb-cnt-cell4" id="_HPB_LAYOUT_F" height="22">&nbsp;COPYRIGHTⒸ2007-2009 Kyoto Institute of Technology Wander Vogel Club,
+      All rights reserved.</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BODY>
+</HTML>
