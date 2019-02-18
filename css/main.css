@@ -23,14 +23,14 @@ nav {
 }
 
 /* introduction.html */
-.jumbotron {
-  background-image: url('../img/introduction_jumbotron.jpg');
+#introduction_main .jumbotron {
+  background-image: url('../img/introduction/jumbotron.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
 }
 
-#introduction_inner {
+#jumbotron_inner {
   background-color: rgba(0, 0, 0, 0.75);
   color: #fff;
   padding: 20px;
@@ -47,4 +47,12 @@ nav {
 /* schedule.html */
 #schedule_table{
   margin: 0 10px 0 10px;
+}
+
+/*  */
+#koya .jumbotron {
+  background-image: url('../img/koya_jumbotron.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
 }
