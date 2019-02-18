@@ -44,6 +44,7 @@ nav {
   height: auto;
 }
 
-.margin_60{
-  height: 60px;
+/* schedule.html */
+#schedule_table{
+  margin: 0 10px 0 10px;
 }
