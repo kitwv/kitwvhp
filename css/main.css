@@ -37,6 +37,10 @@ nav {
   border-radius: 20px;
 }
 
+#introduction_main #jumbotron_inner div {
+  max-width: 1080px;
+}
+
 #introduction_img img {
   margin: 0 0 60px 0;
 }
@@ -46,12 +50,28 @@ nav {
   margin: 0 10px 0 10px;
 }
 
+/* member.html  */
+#members_main .jumbotron {
+  background-image: url('../img/members.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#members_main #jumbotron_inner div {
+  max-width: 540px;
+}
+
 /* koya.html  */
 #koya_main .jumbotron {
   background-image: url('../img/koya/jumbotron.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+#koya_main #jumbotron_inner div {
+  max-width: 1080px;
 }
 
 #koya_img img {
@@ -64,4 +84,8 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+#welcome_main #jumbotron_inner div {
+  max-width: 1080px;
 }
