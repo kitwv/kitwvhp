@@ -84,6 +84,15 @@ nav {
   margin: 0 0 60px 0;
 }
 
+.page_link {
+  margin-top: -100px;
+  padding-top: 100px;
+}
+
+#koya_main .col-lg-4 {
+  margin-top: 30px;
+}
+
 /* welcome.html  */
 #welcome_main .jumbotron {
   background-image: url('../img/welcome.jpg');
