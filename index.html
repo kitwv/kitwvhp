@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- jQuwry3.3.1 -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
   <!-- bootstrap4.3 -->
   <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
@@ -16,6 +16,18 @@
   <!-- fontawesome5.7.2 -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
+  <!-- bxslider -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <!-- my js and css -->
+  <script>
+    $(document).ready(function() {
+    $('.slider').bxSlider({
+      auto: true
+    });
+  });
+  </script>
   <link href="css/main.css" rel="stylesheet">
 
   <title>KITWV HP / ホーム</title>
@@ -79,7 +91,12 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-8">
-        <img src="img/top.jpg" class="img-fluid center-block img-thumbnail">
+        <div class="slider">
+          <img src="img/index/1.jpg" class="img-fluid center-block">
+          <img src="img/index/2.jpg" class="img-fluid center-block">
+          <img src="img/index/3.jpg" class="img-fluid center-block">
+          <img src="img/index/4.jpg" class="img-fluid center-block">
+        </div>
       </div>
       <div class="col-md-4">
         <!-- 連絡先 -->
