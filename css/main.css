@@ -22,12 +22,6 @@ nav {
   color: white;
 }
 
-@media screen and (max-width: 720px) {
-  .br-sp {
-    display: none;
-  }
-}
-
 /* introduction.html */
 #introduction_main .jumbotron {
   background-image: url('../img/introduction/jumbotron.jpg');
