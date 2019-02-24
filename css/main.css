@@ -8,6 +8,13 @@ body {
 /* index.html */
 nav {
   background-color: rgba(0, 0, 0, 0.8);
+  position: relative;
+  z-index: 9999;
+}
+
+#slide_z {
+  position: relative;
+  z-index: -1;
 }
 
 #nav-title {
