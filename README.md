@@ -1,6 +1,7 @@
 # KITWV HP
 
 京都工芸繊維大学ワンダーフォーゲル部ホームページ
+https://kitwv.github.io/kitwvhp/
 
 ## 構成
 
